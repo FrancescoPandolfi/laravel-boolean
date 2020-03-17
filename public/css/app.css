@@ -68,6 +68,10 @@ header {
   margin-right: 24px;
 }
 
+.data-wrapper {
+  display: flex;
+}
+
 footer {
   color: white;
   background-color: #173D57;

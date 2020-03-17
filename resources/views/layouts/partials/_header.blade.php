@@ -15,11 +15,13 @@
         </div>
         <nav class="navbar">
             <ul>
-                <li><a href="{{route('homepage')}}">HOME</a></li>
+                <li class="{{ (Request::route()->getName() == 'homepage') ? 'active' : '' }}"><a href="{{route('homepage')}}">HOME</a></li>
                 <li>CORSO</li>
-                <li><a href="{{route('dopo-il-corso')}}">DOPO IL CORSO</a></li>
+                <li class="{{ (Request::route()->getName() == 'dopo-il-corso') ? 'active' : '' }}"><a href="{{route('dopo-il-corso')}}">DOPO IL CORSO</a></li>
                 <li>LEZIONE GRATUITA</li>
                 <li>CANDIDATI ORA</li>
             </ul>    
         </nav>
     </header>
+
+    

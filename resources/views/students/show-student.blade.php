@@ -3,12 +3,23 @@
 @section('content')
   <div class="container">
     <div class="card-wrapper">
+
       <div class="card">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate asperiores ipsum atque vero aut officia obcaecati dolorem, rerum minima autem architecto nostrum natus accusantium quidem expedita quisquam? Distinctio, dignissimos fugiat.
-      </div>
-      <div class="card">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat fuga eaque unde illo blanditiis. Assumenda, minus dignissimos! Quis, itaque dolorum voluptate dolorem eaque rerum, ex suscipit reiciendis, exercitationem eveniet doloribus.
-      </div>
+        <div class="data-wrapper">
+
+            <img src="{{$student['img']}}" alt="{{$student['nome']}}">
+            <div class="data">
+                <h3>
+                    {{$student['nome']}} ({{$student['eta']}}) anni
+                </h3>
+                <h4>Assunt{{($student['sesso'] == 'm') ? 'o' : 'a'}} da {{$student['azienda']}} come {{$student['ruolo']}}</h4>
+            </div>
+
+        </div>
+        <p>{{$student['desc']}}</p>
+
+    </div>
+
     </div>
   </div>
   
