@@ -5,10 +5,6 @@
       @yield('content')
     </main>
 
-    <footer>
-      @yield('footer')
-    </footer>
-
   </div>
 
 @include('layouts.partials._footer')

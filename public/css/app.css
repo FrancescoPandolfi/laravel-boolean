@@ -6,6 +6,11 @@
   font-family: "Rubik", sans-serif;
 }
 
+body {
+  padding: 150px 0 0 0;
+  background: #E8EBF0;
+}
+
 header {
   width: 100%;
   height: auto;
@@ -15,6 +20,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
+  background-color: white;
 }
 
 .logo {
@@ -37,5 +43,66 @@ header {
 
 .navbar ul li:hover {
   border-bottom: 2px solid #56CC62;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0 0 20px 0;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  width: calc(50% - 8px);
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.card:nth-of-type(odd) {
+  margin-right: 16px;
+}
+
+footer {
+  color: white;
+  background-color: #173D57;
+  height: 380px;
+  padding: 30px;
+}
+
+.footer-top {
+  display: flex;
+  padding: 40px 0 30px 0;
+  border-bottom: 1px solid white;
+}
+
+.footer-top-left {
+  margin-right: auto;
+}
+
+.footer-top-left img {
+  width: 180px;
+}
+
+.footer-bot {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.social-icons {
+  font-size: 35px;
+}
+
+.icons {
+  margin: 20px;
+}
+
+.icons:hover {
+  margin: 20px;
+  color: #56CC62;
 }
 
