@@ -6,8 +6,14 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
+
    public  function home()
    {
        return view('home');
+   }
+
+   public  function dopocorso()
+   {
+       return view('dopo-il-corso');
    }
 }

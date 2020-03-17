@@ -64,12 +64,13 @@ header {
 }
 .card {
   background-color: white;
-  width: calc(50% - 8px);
+  width: calc(50% - 12px);
   padding: 15px;
+  margin: 0 0 30px 0;
   border-radius: 4px;
 }
 .card:nth-of-type(odd) {
-  margin-right: 16px;
+  margin-right: 24px;
 }
 
 

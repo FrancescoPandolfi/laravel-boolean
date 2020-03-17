@@ -15,9 +15,9 @@
         </div>
         <nav class="navbar">
             <ul>
-                <li>HOME</li>
+                <li><a href="{{route('homepage')}}">HOME</a></li>
                 <li>CORSO</li>
-                <li>DOPO IL CORSO</li>
+                <li><a href="{{route('dopo-il-corso')}}">DOPO IL CORSO</a></li>
                 <li>LEZIONE GRATUITA</li>
                 <li>CANDIDATI ORA</li>
             </ul>    
