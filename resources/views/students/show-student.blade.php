@@ -2,6 +2,7 @@
 
 @section('content')
   <div class="container">
+
     <div class="card-wrapper">
 
       <div class="card">
