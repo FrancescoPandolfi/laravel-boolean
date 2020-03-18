@@ -5,6 +5,7 @@
     <div class="container">
 
         <select name="filter" id="filter">
+            <option value="Tutti">Tutti</option>
             @foreach (config('students.students') as $student)
                 <option value="{{$student['eta']}}">{{$student['eta']}}</option>
             @endforeach
