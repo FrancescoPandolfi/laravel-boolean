@@ -13,17 +13,8 @@ const $ = require('jquery');
             url: 'http://' + window.location.host + "/api/students/eta",
             data: {'eta' : eta},
             success: function (data) {
-                console.log(data.response); 
+                console.log(data.response);
             }
-            });
-
-            
-
-            
-        
+            });        
         });
-
-
-
-
     });
