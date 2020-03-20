@@ -9,12 +9,12 @@ const $ = require('jquery');
             let eta = $(this).val();
 
             $.ajax({
-            method: 'post',
-            url: 'http://' + window.location.host + "/api/students/eta",
-            data: {'eta' : eta},
-            success: function (data) {
-                console.log(data.response);
-            }
+                method: 'post',
+                url: 'http://' + window.location.host + "/api/students/eta",
+                data: {'eta' : eta},
+                success: function (data) {
+                    console.log(data.response);
+                }
             });        
         });
     });
