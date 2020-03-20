@@ -23,7 +23,6 @@ class CreateStudentsTable extends Migration
             $table->text('desc');
             $table->char('sesso', 6);
             $table->timestamps();
-            
         });
     }
 
