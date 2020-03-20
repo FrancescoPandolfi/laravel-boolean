@@ -23,6 +23,6 @@ class StudentController extends Controller
     }
 
     public function getAll() {
-        dd(Student::all());
+        return Student::all();
     }
 }
