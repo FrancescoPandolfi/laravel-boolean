@@ -25,3 +25,7 @@ Route::get('/dopo-il-corso', 'HomeController@dopocorso')->name('dopo-il-corso');
 
 // studenti
 Route::get('/students/show-student/{id}', 'StudentController@show')->name('student.show');
+
+// getAllStud
+
+Route::get('/students-db', 'StudentController@getAll');
